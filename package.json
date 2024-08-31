@@ -1,0 +1,17 @@
+{
+  "name": "rspack-unexpected-css-transform",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build:webpack": "webpack --config ./webpack.config.js --mode production",
+    "build:rspack": "rspack --config ./webpack.config.js --mode production"
+  },
+  "dependencies": {
+    "@rspack/cli": "^1.0.0",
+    "@rspack/core": "^1.0.0",
+    "css-loader": "^7.1.2",
+    "mini-css-extract-plugin": "^2.9.1",
+    "webpack": "^5.94.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
